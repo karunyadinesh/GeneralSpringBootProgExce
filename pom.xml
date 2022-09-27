@@ -58,6 +58,7 @@
     </snapshotRepository>
    </distributionManagement>     
 
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
