@@ -26,6 +26,33 @@
                 <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	
+	<repositories>
+           <repository>
+              <id>Feed</id>
+              <url>https://pkgs.dev.azure.com/karunyachadaluri0277/Artifact/_packaging/Feed/maven/v1</url>
+              <releases>
+              <enabled>true</enabled>
+              </releases>
+              <snapshots>
+              <enabled>true</enabled>
+              </snapshots>
+             </repository>
+        </repositories>
+	
+	<distributionManagement>
+            <repository>
+              <id>Feed</id>
+              <url>https://pkgs.dev.azure.com/karunyachadaluri0277/Artifact/_packaging/Feed/maven/v1</url>
+              <releases>
+              <enabled>true</enabled>
+              </releases>
+              <snapshots>
+              <enabled>true</enabled>
+              </snapshots>
+            </repository>
+        </distributionManagement>
+	
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
