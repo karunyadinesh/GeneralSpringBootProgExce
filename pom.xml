@@ -28,28 +28,28 @@
 	
 	<repositories>
            <repository>
-              <id>Feed</id>
-              <url>https://pkgs.dev.azure.com/karunyachadaluri0277/Artifact/_packaging/Feed/maven/v1</url>
-              <releases>
-              <enabled>true</enabled>
-              </releases>
-              <snapshots>
-              <enabled>true</enabled>
-              </snapshots>
-             </repository>
+             <id>General-spring-feed</id>
+             <url>https://pkgs.dev.azure.com/karunyachadaluri0277/Artifact/_packaging/General-spring-feed/maven/v1</url>
+             <releases>
+             <enabled>true</enabled>
+             </releases>
+             <snapshots>
+             <enabled>true</enabled>
+             </snapshots>
+           </repository>
         </repositories>
 	
 	<distributionManagement>
             <repository>
-              <id>Feed</id>
-              <url>https://pkgs.dev.azure.com/karunyachadaluri0277/Artifact/_packaging/Feed/maven/v1</url>
-              <releases>
-              <enabled>true</enabled>
-              </releases>
-              <snapshots>
-              <enabled>true</enabled>
-              </snapshots>
-            </repository>
+               <id>General-spring-feed</id>
+               <url>https://pkgs.dev.azure.com/karunyachadaluri0277/Artifact/_packaging/General-spring-feed/maven/v1</url>
+               <releases>
+               <enabled>true</enabled>
+               </releases>
+               <snapshots>
+               <enabled>true</enabled>
+               </snapshots>
+             </repository>
         </distributionManagement>
 	
 	
