@@ -28,8 +28,8 @@
 	
 	<repositories>
            <repository>
-             <id>General-spring-feed</id>
-             <url>https://pkgs.dev.azure.com/karunyachadaluri0277/Artifact/_packaging/General-spring-feed/maven/v1</url>
+             <id>Spring-Feed</id>
+              <url>https://pkgs.dev.azure.com/karunyadinesh15040146/Artifact/_packaging/Spring-Feed/maven/v1</url>
              <releases>
              <enabled>true</enabled>
              </releases>
@@ -41,8 +41,8 @@
 	
 	<distributionManagement>
             <repository>
-               <id>General-spring-feed</id>
-               <url>https://pkgs.dev.azure.com/karunyachadaluri0277/Artifact/_packaging/General-spring-feed/maven/v1</url>
+               <id>Spring-Feed</id>
+               <url>https://pkgs.dev.azure.com/karunyadinesh15040146/Artifact/_packaging/Spring-Feed/maven/v1</url>
                <releases>
                <enabled>true</enabled>
                </releases>
