@@ -28,28 +28,28 @@
 	
 	<repositories>
            <repository>
-             <id>Spring-Feed</id>
-              <url>https://pkgs.dev.azure.com/karunyadinesh15040146/Artifact/_packaging/Spring-Feed/maven/v1</url>
-             <releases>
-             <enabled>true</enabled>
-             </releases>
-             <snapshots>
-             <enabled>true</enabled>
-             </snapshots>
+            <id>Spring-feed-1</id>
+            <url>https://pkgs.dev.azure.com/karunyadinesh15040146/Artifact/_packaging/Spring-feed-1/maven/v1</url>
+            <releases>
+            <enabled>true</enabled>
+            </releases>
+            <snapshots>
+            <enabled>true</enabled>
+            </snapshots>
            </repository>
         </repositories>
 	
 	<distributionManagement>
-            <repository>
-               <id>Spring-Feed</id>
-               <url>https://pkgs.dev.azure.com/karunyadinesh15040146/Artifact/_packaging/Spring-Feed/maven/v1</url>
-               <releases>
-               <enabled>true</enabled>
-               </releases>
-               <snapshots>
-               <enabled>true</enabled>
-               </snapshots>
-             </repository>
+           <repository>
+            <id>Spring-feed-1</id>
+            <url>https://pkgs.dev.azure.com/karunyadinesh15040146/Artifact/_packaging/Spring-feed-1/maven/v1</url>
+            <releases>
+            <enabled>true</enabled>
+            </releases>
+            <snapshots>
+            <enabled>true</enabled>
+            </snapshots>
+           </repository>
         </distributionManagement>
 	
 	<dependencies>
